@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_fees",
+  "info": {
+    "displayName": "Fee"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "biginteger",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

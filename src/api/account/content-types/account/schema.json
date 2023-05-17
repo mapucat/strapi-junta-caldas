@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "bank": {
+      "type": "enumeration",
+      "enum": [
+        "Bancolombia"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Ahorros",
+        "Corriente"
+      ],
+      "required": true
+    },
+    "number": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

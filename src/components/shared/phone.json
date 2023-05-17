@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_phones",
+  "info": {
+    "displayName": "Phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "fijo",
+        "celular",
+        "whatsapp"
+      ],
+      "required": true
+    },
+    "code": {
+      "type": "integer",
+      "required": true,
+      "default": 606
+    }
+  }
+}

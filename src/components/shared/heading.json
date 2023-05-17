@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_headings",
+  "info": {
+    "displayName": "Heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    }
+  }
+}

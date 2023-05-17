@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "entities",
+  "info": {
+    "singularName": "entity",
+    "pluralName": "entities",
+    "displayName": "Entity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "workSchedule": {
+      "type": "richtext",
+      "required": true
+    },
+    "NIT": {
+      "type": "string",
+      "required": true
+    },
+    "accounts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::account.account"
+    },
+    "emails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.email"
+    },
+    "phones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.phone"
+    },
+    "fee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.fee"
+    }
+  }
+}
