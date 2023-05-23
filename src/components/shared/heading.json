@@ -1,11 +1,12 @@
 {
   "collectionName": "components_shared_headings",
   "info": {
-    "displayName": "Heading"
+    "displayName": "Heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "text": {
       "type": "string"
     },
     "level": {

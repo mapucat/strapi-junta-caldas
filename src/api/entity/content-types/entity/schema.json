@@ -16,12 +16,6 @@
       "type": "string",
       "required": true
     },
-    "logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.media",
-      "required": true
-    },
     "address": {
       "type": "text",
       "required": true
@@ -53,6 +47,17 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.fee"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
