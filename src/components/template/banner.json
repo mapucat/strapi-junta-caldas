@@ -1,7 +1,8 @@
 {
   "collectionName": "components_template_banners",
   "info": {
-    "displayName": "Banner"
+    "displayName": "Banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,13 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.media"
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "tertiary"
+      ]
     }
   }
 }

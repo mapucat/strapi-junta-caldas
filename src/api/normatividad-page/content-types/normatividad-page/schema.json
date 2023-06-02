@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "normatividad_pages",
+  "info": {
+    "singularName": "normatividad-page",
+    "pluralName": "normatividad-pages",
+    "displayName": "NormatividadPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.banner"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.section"
+    }
+  }
+}

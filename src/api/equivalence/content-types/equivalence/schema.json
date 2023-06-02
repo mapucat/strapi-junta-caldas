@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equivalences",
+  "info": {
+    "singularName": "equivalence",
+    "pluralName": "equivalences",
+    "displayName": "Equivalence"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "variable": {
+      "type": "string"
+    },
+    "propertyName": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}

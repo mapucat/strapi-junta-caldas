@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "quienes_somos_1",
+  "info": {
+    "singularName": "quienes-somos",
+    "pluralName": "quienes-somos-1",
+    "displayName": "QuienesSomosPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.banner"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.section"
+    }
+  }
+}

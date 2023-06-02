@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "atencion_usuarios",
+  "info": {
+    "singularName": "atencion-usuario",
+    "pluralName": "atencion-usuarios",
+    "displayName": "AtencionUsuarioPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.banner"
+    }
+  }
+}

@@ -11,6 +11,10 @@
     },
     "level": {
       "type": "integer"
+    },
+    "size": {
+      "type": "integer",
+      "default": 48
     }
   }
 }

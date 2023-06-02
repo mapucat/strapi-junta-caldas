@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicios_pages",
+  "info": {
+    "singularName": "servicios-page",
+    "pluralName": "servicios-pages",
+    "displayName": "ServiciosPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.section"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "template.banner"
+    }
+  }
+}
