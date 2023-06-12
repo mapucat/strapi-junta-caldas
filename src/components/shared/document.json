@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_documents",
+  "info": {
+    "displayName": "Document"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "downloadText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "/equivalences": {
+  "/normativities": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquivalenceListResponse"
+                "$ref": "#/components/schemas/NormativityListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Equivalence"
+        "Normativity"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/equivalences"
+      "operationId": "get/normativities"
     },
     "post": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquivalenceResponse"
+                "$ref": "#/components/schemas/NormativityResponse"
               }
             }
           }
@@ -235,23 +235,23 @@
         }
       },
       "tags": [
-        "Equivalence"
+        "Normativity"
       ],
       "parameters": [],
-      "operationId": "post/equivalences",
+      "operationId": "post/normativities",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/EquivalenceRequest"
+              "$ref": "#/components/schemas/NormativityRequest"
             }
           }
         }
       }
     }
   },
-  "/equivalences/{id}": {
+  "/normativities/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -259,7 +259,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquivalenceResponse"
+                "$ref": "#/components/schemas/NormativityResponse"
               }
             }
           }
@@ -316,7 +316,7 @@
         }
       },
       "tags": [
-        "Equivalence"
+        "Normativity"
       ],
       "parameters": [
         {
@@ -330,7 +330,7 @@
           }
         }
       ],
-      "operationId": "get/equivalences/{id}"
+      "operationId": "get/normativities/{id}"
     },
     "put": {
       "responses": {
@@ -339,7 +339,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquivalenceResponse"
+                "$ref": "#/components/schemas/NormativityResponse"
               }
             }
           }
@@ -396,7 +396,7 @@
         }
       },
       "tags": [
-        "Equivalence"
+        "Normativity"
       ],
       "parameters": [
         {
@@ -410,13 +410,13 @@
           }
         }
       ],
-      "operationId": "put/equivalences/{id}",
+      "operationId": "put/normativities/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/EquivalenceRequest"
+              "$ref": "#/components/schemas/NormativityRequest"
             }
           }
         }
@@ -487,7 +487,7 @@
         }
       },
       "tags": [
-        "Equivalence"
+        "Normativity"
       ],
       "parameters": [
         {
@@ -501,7 +501,7 @@
           }
         }
       ],
-      "operationId": "delete/equivalences/{id}"
+      "operationId": "delete/normativities/{id}"
     }
   }
 }

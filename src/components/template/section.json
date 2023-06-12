@@ -13,7 +13,7 @@
     "title": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.heading"
+      "component": "section.heading"
     },
     "image": {
       "type": "component",
@@ -55,6 +55,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::article.article"
+    },
+    "document": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.document"
     }
   }
 }

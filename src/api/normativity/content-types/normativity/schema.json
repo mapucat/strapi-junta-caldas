@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "normativities",
+  "info": {
+    "singularName": "normativity",
+    "pluralName": "normativities",
+    "displayName": "Normativity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "abstract": {
+      "type": "richtext",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
