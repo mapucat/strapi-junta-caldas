@@ -4,7 +4,8 @@
   "info": {
     "singularName": "normativity",
     "pluralName": "normativities",
-    "displayName": "Normativity"
+    "displayName": "Normativity",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,18 +21,15 @@
       "type": "richtext",
       "required": true
     },
-    "url": {
+    "pageUrl": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "document": {
-      "allowedTypes": [
-        "files"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+    "pdfUrl": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

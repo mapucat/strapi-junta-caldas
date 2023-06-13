@@ -51,15 +51,15 @@
       "relation": "oneToMany",
       "target": "api::service.service"
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
-    },
     "document": {
       "type": "component",
       "repeatable": false,
       "component": "shared.document"
+    },
+    "normativities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::normativity.normativity"
     }
   }
 }
