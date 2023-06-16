@@ -16,6 +16,35 @@
       "type": "component",
       "repeatable": false,
       "component": "template.banner"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.heading"
+    },
+    "schedule_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.heading"
+    },
+    "scheduleDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "locationTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.heading",
+      "required": true
+    },
+    "locationDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "phoneTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.heading"
     }
   }
 }

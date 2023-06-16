@@ -23,6 +23,17 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "contentTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.heading"
+    },
+    "workSchedule": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "richtext"
     }
   }
 }

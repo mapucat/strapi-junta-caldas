@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "articulos",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "Article",
-    "description": "Create your blog content"
+    "singularName": "articulo",
+    "pluralName": "articulos",
+    "displayName": "Articulo"
   },
   "options": {
     "draftAndPublish": true
@@ -16,44 +15,44 @@
       "type": "string"
     },
     "description": {
-      "type": "text",
-      "maxLength": 80
+      "type": "string"
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
     "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
-        "videos"
-      ]
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     },
     "author": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::author.author",
-      "inversedBy": "articles"
+      "inversedBy": "articulos"
     },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
-      "inversedBy": "articles"
+      "inversedBy": "articulos"
     },
     "blocks": {
       "type": "dynamiczone",
       "components": [
         "shared.media",
-        "shared.quote",
+        "shared.document",
         "shared.rich-text",
         "shared.slider",
-        "shared.document"
-      ]
+        "shared.quote"
+      ],
+      "required": true
     }
   }
 }

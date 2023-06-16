@@ -26,6 +26,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "articulos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::articulo.articulo",
+      "mappedBy": "category"
     }
   }
 }

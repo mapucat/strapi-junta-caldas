@@ -60,6 +60,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::normativity.normativity"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "showServices": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
