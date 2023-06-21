@@ -61,10 +61,10 @@
       "relation": "oneToMany",
       "target": "api::normativity.normativity"
     },
-    "articles": {
+    "articulos": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::article.article"
+      "target": "api::articulo.articulo"
     },
     "showServices": {
       "type": "boolean",
